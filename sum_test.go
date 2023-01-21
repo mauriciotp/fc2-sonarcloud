@@ -11,7 +11,7 @@ func TestSum(t *testing.T) {
 
 	result2 := sub(4, 2)
 
-	if result != 2 {
+	if result2 != 2 {
 		t.Error("The result must be 2")
 	}
 }
